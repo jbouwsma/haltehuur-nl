@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hal te Huur.nl — Bedrijfsruimte in Ede</title>
+<meta name="description" content="Bedrijfsruimtes, hallen en kantoorruimtes te huur in Ede. Jouw bedrijfsruimte, klaar voor gebruik!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Hal te <span>Huur</span>.nl</a>
+    <nav class="main-nav">
+      <a href="#aanbod">Aanbod</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="background-image: url('images/home/hero_home.jpg');">
+  <div class="wrap">
+    <h1>Jouw bedrijfsruimte,<br>klaar voor gebruik!</h1>
+    <p>Bedrijfsruimtes, hallen en kantoorruimtes te huur in Ede — representatief, instapklaar en met persoonlijke aandacht.</p>
+    <a href="#aanbod" class="btn">Bekijk het aanbod</a>
+  </div>
+</section>
+
+<section id="aanbod">
+  <div class="wrap">
+    <h2 class="section-title">Aanbod</h2>
+    <p class="section-intro">Een overzicht van onze bedrijfsruimtes in Ede.</p>
+
+    <div class="grid">
+
+      <a class="card" href="aanbod/fahrenheitstraat-34q.html">
+        <img class="thumb" src="images/fahrenheitstraat-34q/fahrenheitstraat-34q-01.jpg" alt="Fahrenheitstraat 34Q">
+        <div class="card-body">
+          <span class="badge available">Beschikbaar</span>
+          <h3>Fahrenheitstraat 34Q</h3>
+          <p class="meta">Ede &middot; circa 126 m&sup2;</p>
+        </div>
+      </a>
+
+      <a class="card" href="aanbod/banksstraat-3l.html">
+        <img class="thumb" src="images/banksstraat-3l/banksstraat-3l-01.jpg" alt="Banksstraat 3L">
+        <div class="card-body">
+          <span class="badge rented">Verhuurd</span>
+          <h3>Banksstraat 3L</h3>
+          <p class="meta">Ede &middot; 77 m&sup2;</p>
+        </div>
+      </a>
+
+      <a class="card" href="aanbod/bonnetstraat-11.html">
+        <img class="thumb" src="images/bonnetstraat-11/bonnetstraat-11-01.jpg" alt="Bonnetstraat 11">
+        <div class="card-body">
+          <span class="badge rented">Verhuurd</span>
+          <h3>Bonnetstraat 11</h3>
+          <p class="meta">Ede &middot; 100 m&sup2;</p>
+        </div>
+      </a>
+
+      <a class="card" href="aanbod/sessieruimte.html">
+        <div class="thumb placeholder">Foto&rsquo;s volgen binnenkort</div>
+        <div class="card-body">
+          <span class="badge soon">In aanbouw</span>
+          <h3>Sessieruimte per uur</h3>
+          <p class="meta">Ede &middot; binnenkort beschikbaar</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap contact-box">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-intro" style="margin-left:auto;margin-right:auto;">Heeft u interesse of vragen over onze bedrijfsruimtes? Neem gerust contact met ons op. Wij helpen u graag verder!</p>
+    <a class="email" href="mailto:info@haltehuur.nl">info@haltehuur.nl</a>
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Hal te Huur.nl
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
