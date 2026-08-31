@@ -75,7 +75,7 @@ header.site-header .wrap {
   gap: 12px;
 }
 
-.brand span { color: var(--accent); }
+.brand .accent { color: var(--accent); }
 
 .brand-logo {
   width: 38px;
